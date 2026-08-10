@@ -30,6 +30,7 @@
 		A61D8F8E3024E1A400C25E48 /* CheckSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D8F8D3024E1A400C25E48 /* CheckSubarraySum.swift */; };
 		A61D8F90302630D100C25E48 /* SubarraysDivByK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D8F8F302630D100C25E48 /* SubarraysDivByK.swift */; };
 		A61D8F933028765800C25E48 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D8F923028765800C25E48 /* MaxSubArray.swift */; };
+		A61D8FB0302A4EC500C25E48 /* MaxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D8FAF302A4EC500C25E48 /* MaxProduct.swift */; };
 		A6C31185300937CE00C5B0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31184300937CE00C5B0EE /* AppDelegate.swift */; };
 		A6C31187300937CE00C5B0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31186300937CE00C5B0EE /* SceneDelegate.swift */; };
 		A6C31189300937CE00C5B0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31188300937CE00C5B0EE /* ViewController.swift */; };
@@ -65,6 +66,7 @@
 		A61D8F8D3024E1A400C25E48 /* CheckSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSubarraySum.swift; sourceTree = "<group>"; };
 		A61D8F8F302630D100C25E48 /* SubarraysDivByK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraysDivByK.swift; sourceTree = "<group>"; };
 		A61D8F923028765800C25E48 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
+		A61D8FAF302A4EC500C25E48 /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
 		A6C31181300937CE00C5B0EE /* DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C31184300937CE00C5B0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C31186300937CE00C5B0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				A61D8F923028765800C25E48 /* MaxSubArray.swift */,
+				A61D8FAF302A4EC500C25E48 /* MaxProduct.swift */,
 			);
 			path = Kadane;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				A61D8F85301F266900C25E48 /* MinSubArrayLen.swift in Sources */,
 				A61D8F3A300CDC2100C25E48 /* MultiplyStrings.swift in Sources */,
 				A61D8F40300FD38300C25E48 /* AddBinary.swift in Sources */,
+				A61D8FB0302A4EC500C25E48 /* MaxProduct.swift in Sources */,
 				A61D8F3E300E719D00C25E48 /* MoveZeroes.swift in Sources */,
 				A61D8F8E3024E1A400C25E48 /* CheckSubarraySum.swift in Sources */,
 				A61D8F81301C95AD00C25E48 /* NumSubarrayProductLessThanK.swift in Sources */,

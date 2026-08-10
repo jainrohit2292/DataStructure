@@ -38,6 +38,7 @@ class ViewController: UIViewController {
        // checkSubarraySum()
        // subarraysDivByK()
        // maxSubArray()
+        maxProduct()
     }
 }
 
