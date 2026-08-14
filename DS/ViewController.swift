@@ -22,7 +22,7 @@ class ViewController: UIViewController {
        // twoSum()
        // threeSum()
        // sortColors()
-       // isPalindrome()
+        isPalindrome()
        // isPalindrome2()
        // search()
        // maxArea()
@@ -38,7 +38,9 @@ class ViewController: UIViewController {
        // checkSubarraySum()
        // subarraysDivByK()
        // maxSubArray()
-        maxProduct()
+       // maxProduct()
+       // maxSubarraySumCircular()
+       // maxAbsoluteSum()
     }
 }
 
