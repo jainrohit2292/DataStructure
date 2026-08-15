@@ -37,7 +37,7 @@
  
 */
 
-extension ViewController {
+extension ArrayTwoPointers {
     func threeSum() {
         let result = threeSum([-1,0,1,2,-1,-4])
         print(result)

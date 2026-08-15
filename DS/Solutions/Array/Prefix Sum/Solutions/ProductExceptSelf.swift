@@ -29,7 +29,7 @@
 
 */
 
-extension ViewController {
+extension ArrayPefixSum {
     func productExceptSelf() {
         let result = productExceptSelf([1,2,3,4])
         debugPrint(result)

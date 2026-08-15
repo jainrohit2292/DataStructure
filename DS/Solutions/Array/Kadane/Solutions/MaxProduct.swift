@@ -30,7 +30,7 @@
  
 */
 
-extension ViewController {
+extension ArrayKadane {
     
     func maxProduct() {
         let result = maxProduct([-2,0,-1])

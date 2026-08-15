@@ -30,7 +30,7 @@
  
  */
 
-extension ViewController {
+extension ArrayKadane {
     func maxAbsoluteSum() {
         let result = maxAbsoluteSum([-7,-1,0,-2,1,3,8,-2,-6,-1,-10,-6,-6,8,-4,-9,-4,1,4,-9])
         debugPrint(result)

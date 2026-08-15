@@ -26,7 +26,7 @@
  
 */
 
-extension ViewController {
+extension ArrayPefixSum {
     func subarraysDivByK() {
         let result = subarraysDivByK([-1,2,9], 2 )
         debugPrint(result)

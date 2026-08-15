@@ -23,7 +23,7 @@ A subarray is a contiguous non-empty sequence of elements within an array.
  
 */
 
-extension ViewController {
+extension ArrayPefixSum {
     func subarraySum() {
         let result = subarraySum([1,2,3], 3)
         debugPrint(result)

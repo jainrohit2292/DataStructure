@@ -26,7 +26,7 @@
  
 */
 
-extension ViewController {
+extension ArraySlidingWindow {
     func longestOnes() {
         let result = longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2)        
         debugPrint(result)

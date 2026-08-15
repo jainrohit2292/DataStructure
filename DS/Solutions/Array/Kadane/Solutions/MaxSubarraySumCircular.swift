@@ -33,7 +33,7 @@
  
  */
 
-extension ViewController {
+extension ArrayKadane {
     func maxSubarraySumCircular() {
         let result = maxSubarraySumCircular([5,-3,5])
         debugPrint(result)

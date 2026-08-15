@@ -37,7 +37,7 @@
  
 */
 
-extension ViewController {
+extension ArraySlidingWindow {
     func totalFruit() {
         let result = totalFruit([3,3,3,1,2,1,1,2,3,3,4])
         debugPrint(result)

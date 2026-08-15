@@ -44,7 +44,7 @@ Return the leftmost pivot index. If no such index exists, return -1.
  
 */
 
-extension ViewController {
+extension ArrayPefixSum {
     func pivotIndex() {
         let result = pivotIndex([2,1,-1])
         debugPrint(result)

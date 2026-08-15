@@ -22,7 +22,7 @@
  
 */
 
-extension ViewController {
+extension ArraySlidingWindow {
     func findMaxConsecutiveOnes() {
         let result = findMaxConsecutiveOnes([1,1,0,1,1,1])
         debugPrint(result)

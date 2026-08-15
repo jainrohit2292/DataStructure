@@ -33,7 +33,7 @@
  
 */
 
-extension ViewController {
+extension StringTwoPointers {
     func isPalindrome() {
         let result = isPalindrome("race a car")
         debugPrint(result)

@@ -37,7 +37,7 @@
  
 */
 
-extension ViewController {
+extension ArraySlidingWindow {
     func maximumSubarraySum() {
         let result = maximumSubarraySum([9,9,9,1,2,3], 3)
         debugPrint(result)

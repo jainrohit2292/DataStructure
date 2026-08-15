@@ -39,7 +39,7 @@
 
 */
 
-extension ViewController {
+extension ArrayPefixSum {
     func checkSubarraySum() {
         let result = checkSubarraySum([5,0,0,0], 3)
         debugPrint(result)

@@ -32,7 +32,7 @@
  
 */
 
-extension ViewController {
+extension ArrayTwoPointers {
     func maxArea() {
         let result = maxArea([1,8,6,2,5,4,8,3,7])
         debugPrint(result)

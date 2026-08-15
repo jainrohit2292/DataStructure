@@ -1,11 +1,11 @@
-extension ViewController {
+extension StringTwoPointers {
     
     func getLongestPalindrome() {
         let result = longestPalindrome("abb")
         print(result)
     }
     
-    func longestPalindrome(_ s: String) -> String {
+    private func longestPalindrome(_ s: String) -> String {
         if s.count < 2 {
             return s
         }

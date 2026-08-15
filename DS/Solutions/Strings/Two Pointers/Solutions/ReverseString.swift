@@ -25,7 +25,7 @@
  
 */
 
-extension ViewController {
+extension StringTwoPointers {
     func reverseString() {
         var chars: [Character] = ["h","e","l","l","o"]
         reverseString(&chars)
