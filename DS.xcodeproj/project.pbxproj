@@ -41,6 +41,7 @@
 		A66E37753030AF9C0032070D /* ArrayPefixSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37743030AF9C0032070D /* ArrayPefixSum.swift */; };
 		A66E37783030B06F0032070D /* ArrayKadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37773030B06F0032070D /* ArrayKadane.swift */; };
 		A66E377B3030B2400032070D /* StringTwoPointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E377A3030B2400032070D /* StringTwoPointers.swift */; };
+		A66E377E3031F7540032070D /* CountSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E377D3031F7540032070D /* CountSubstrings.swift */; };
 		A6C31185300937CE00C5B0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31184300937CE00C5B0EE /* AppDelegate.swift */; };
 		A6C31187300937CE00C5B0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31186300937CE00C5B0EE /* SceneDelegate.swift */; };
 		A6C31189300937CE00C5B0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31188300937CE00C5B0EE /* ViewController.swift */; };
@@ -87,6 +88,7 @@
 		A66E37743030AF9C0032070D /* ArrayPefixSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPefixSum.swift; sourceTree = "<group>"; };
 		A66E37773030B06F0032070D /* ArrayKadane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayKadane.swift; sourceTree = "<group>"; };
 		A66E377A3030B2400032070D /* StringTwoPointers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTwoPointers.swift; sourceTree = "<group>"; };
+		A66E377D3031F7540032070D /* CountSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSubstrings.swift; sourceTree = "<group>"; };
 		A6C31181300937CE00C5B0EE /* DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C31184300937CE00C5B0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C31186300937CE00C5B0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				A61D8F473013CACA00C25E48 /* ValidPalindrome.swift */,
 				A61D8F493015201F00C25E48 /* ValidPalindrome2.swift */,
 				A6C3119830093FA700C5B0EE /* LongestPalindrome.swift */,
+				A66E377D3031F7540032070D /* CountSubstrings.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				A61D8F4E3017AE1E00C25E48 /* ContainerWithMostWater.swift in Sources */,
 				A61D8F4430111AF900C25E48 /* 3Sum.swift in Sources */,
 				A61D8F90302630D100C25E48 /* SubarraysDivByK.swift in Sources */,
+				A66E377E3031F7540032070D /* CountSubstrings.swift in Sources */,
 				A61D8F4C301668D800C25E48 /* BinarySearch.swift in Sources */,
 				A6C3119F300B81B900C5B0EE /* CountAndSay.swift in Sources */,
 				A61D8F83301DD28900C25E48 /* TotalFruit.swift in Sources */,

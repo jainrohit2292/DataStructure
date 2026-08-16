@@ -2,12 +2,13 @@ enum StringTwoPointersProblem {
     case reverseString,
          validPalindrome,
          validPalindrome2,
-         longestPalindrome
+         longestPalindrome,
+         countSubstrings
 }
 
 struct StringTwoPointers: StringProblemTypeProtocol {
     
-    let currentType: StringTwoPointersProblem = .validPalindrome2
+    let currentType: StringTwoPointersProblem = .countSubstrings
     
     func executeStringProblem() {
         switch currentType {
@@ -19,6 +20,8 @@ struct StringTwoPointers: StringProblemTypeProtocol {
             isPalindrome2()
         case .longestPalindrome:
             getLongestPalindrome()
+        case .countSubstrings:
+            countSubstrings()
         }
     }
 }
