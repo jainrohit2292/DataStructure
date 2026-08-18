@@ -42,6 +42,8 @@
 		A66E37783030B06F0032070D /* ArrayKadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37773030B06F0032070D /* ArrayKadane.swift */; };
 		A66E377B3030B2400032070D /* StringTwoPointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E377A3030B2400032070D /* StringTwoPointers.swift */; };
 		A66E377E3031F7540032070D /* CountSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E377D3031F7540032070D /* CountSubstrings.swift */; };
+		A66E37813034BB6C0032070D /* StringSlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37803034BB6C0032070D /* StringSlidingWindow.swift */; };
+		A66E37843034BC180032070D /* FindAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37833034BC180032070D /* FindAnagrams.swift */; };
 		A6C31185300937CE00C5B0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31184300937CE00C5B0EE /* AppDelegate.swift */; };
 		A6C31187300937CE00C5B0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31186300937CE00C5B0EE /* SceneDelegate.swift */; };
 		A6C31189300937CE00C5B0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31188300937CE00C5B0EE /* ViewController.swift */; };
@@ -89,6 +91,8 @@
 		A66E37773030B06F0032070D /* ArrayKadane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayKadane.swift; sourceTree = "<group>"; };
 		A66E377A3030B2400032070D /* StringTwoPointers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTwoPointers.swift; sourceTree = "<group>"; };
 		A66E377D3031F7540032070D /* CountSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSubstrings.swift; sourceTree = "<group>"; };
+		A66E37803034BB6C0032070D /* StringSlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSlidingWindow.swift; sourceTree = "<group>"; };
+		A66E37833034BC180032070D /* FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAnagrams.swift; sourceTree = "<group>"; };
 		A6C31181300937CE00C5B0EE /* DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C31184300937CE00C5B0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C31186300937CE00C5B0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 			children = (
 				A66E376A3030A1DC0032070D /* StringProblems.swift */,
 				A61D8F57301B424C00C25E48 /* Two Pointers */,
+				A66E377F3034BB260032070D /* Sliding Window */,
 				A61D8F96302880EF00C25E48 /* Random */,
 			);
 			path = Strings;
@@ -264,6 +269,23 @@
 				A61D8F493015201F00C25E48 /* ValidPalindrome2.swift */,
 				A6C3119830093FA700C5B0EE /* LongestPalindrome.swift */,
 				A66E377D3031F7540032070D /* CountSubstrings.swift */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		A66E377F3034BB260032070D /* Sliding Window */ = {
+			isa = PBXGroup;
+			children = (
+				A66E37803034BB6C0032070D /* StringSlidingWindow.swift */,
+				A66E37823034BC020032070D /* Solutions */,
+			);
+			path = "Sliding Window";
+			sourceTree = "<group>";
+		};
+		A66E37823034BC020032070D /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				A66E37833034BC180032070D /* FindAnagrams.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -417,6 +439,8 @@
 				A66E377E3031F7540032070D /* CountSubstrings.swift in Sources */,
 				A61D8F4C301668D800C25E48 /* BinarySearch.swift in Sources */,
 				A6C3119F300B81B900C5B0EE /* CountAndSay.swift in Sources */,
+				A66E37813034BB6C0032070D /* StringSlidingWindow.swift in Sources */,
+				A66E37843034BC180032070D /* FindAnagrams.swift in Sources */,
 				A61D8F83301DD28900C25E48 /* TotalFruit.swift in Sources */,
 				A61D8F4630127CE000C25E48 /* SortColors.swift in Sources */,
 				A66E3769302F89F20032070D /* ReverseString.swift in Sources */,

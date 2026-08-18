@@ -1,5 +1,5 @@
 enum StringProblemType {
-    case twoPointer
+    case twoPointer, slidingWindow
 }
 
 protocol StringProblemTypeProtocol {
@@ -11,7 +11,7 @@ protocol StringProblemTypeProtocol {
 }
 
 struct StringProblems: DSProblemTypeProtocol {
-    let currentType: StringProblemType = .twoPointer
+    let currentType: StringProblemType = .slidingWindow
     
     func executeProblem() {
         var problemType: (any StringProblemTypeProtocol)?
@@ -19,6 +19,8 @@ struct StringProblems: DSProblemTypeProtocol {
         switch currentType {
         case .twoPointer:
             problemType = StringTwoPointers()
+        case .slidingWindow:
+            problemType = StringSlidingWindow()
         }
         
         problemType?.executeStringProblem()
