@@ -44,6 +44,7 @@
 		A66E377E3031F7540032070D /* CountSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E377D3031F7540032070D /* CountSubstrings.swift */; };
 		A66E37813034BB6C0032070D /* StringSlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37803034BB6C0032070D /* StringSlidingWindow.swift */; };
 		A66E37843034BC180032070D /* FindAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37833034BC180032070D /* FindAnagrams.swift */; };
+		A66E37863034CFE70032070D /* CheckInclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E37853034CFE70032070D /* CheckInclusion.swift */; };
 		A6C31185300937CE00C5B0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31184300937CE00C5B0EE /* AppDelegate.swift */; };
 		A6C31187300937CE00C5B0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31186300937CE00C5B0EE /* SceneDelegate.swift */; };
 		A6C31189300937CE00C5B0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31188300937CE00C5B0EE /* ViewController.swift */; };
@@ -93,6 +94,7 @@
 		A66E377D3031F7540032070D /* CountSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSubstrings.swift; sourceTree = "<group>"; };
 		A66E37803034BB6C0032070D /* StringSlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSlidingWindow.swift; sourceTree = "<group>"; };
 		A66E37833034BC180032070D /* FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAnagrams.swift; sourceTree = "<group>"; };
+		A66E37853034CFE70032070D /* CheckInclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInclusion.swift; sourceTree = "<group>"; };
 		A6C31181300937CE00C5B0EE /* DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C31184300937CE00C5B0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C31186300937CE00C5B0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				A66E37833034BC180032070D /* FindAnagrams.swift */,
+				A66E37853034CFE70032070D /* CheckInclusion.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				A61D8F8C302394E100C25E48 /* ProductExceptSelf.swift in Sources */,
 				A6C3119930093FA700C5B0EE /* LongestPalindrome.swift in Sources */,
 				A66E37753030AF9C0032070D /* ArrayPefixSum.swift in Sources */,
+				A66E37863034CFE70032070D /* CheckInclusion.swift in Sources */,
 				A6C3119D300A834800C5B0EE /* StringToInt.swift in Sources */,
 				A61D8F3C300E6A7500C25E48 /* GroupAnagrams.swift in Sources */,
 				A6C31185300937CE00C5B0EE /* AppDelegate.swift in Sources */,
